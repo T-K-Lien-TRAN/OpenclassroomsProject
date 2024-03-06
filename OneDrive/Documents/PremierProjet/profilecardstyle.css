@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh; /* Ensures full height of the viewport */ 
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 20px;
+	background-color: white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}	
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	text-align: center;
+	color: purple;
+	text-decoration: underline;
+}
+.profile {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto auto auto auto;
+	grid-gap: 10px;
+	align-items: center;
+}
+.profile img {   
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  	display: block;
+    margin: auto 60px auto 60px; /* Center horizontally */
+}
+
+.profile h2 {
+	grid-column: 2 / span 2;
+	margin: 0;
+	font-size: 24px;
+	color: purple;
+}
+.profile p {
+	grid-column: 2 / span 2;
+	margin: 0;
+	font-size: 18px;
+	color: purple;
+}
+.profile ul {
+	grid-column: 2 / span 2;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+}
+.profile ul li {
+	margin-right: 10px;
+}
+.profile ul li:last-child {
+	margin-right: 0;
+}
+.profile ul li a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: rgb(128, 128, 128);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+}
+	.social-icon:hover {
+	background-color: #27ae60;
+}
+
+  .social-icon-twitter {			
+	background-image: url(twitter.png);
+	background-size: 100%;
+  }
+  .social-icon-facebook {			
+	background-image: url(facebook.png);
+	background-size: 100%;
+  }
+  .social-icon-linkedin {			
+	background-image: url(linkedin.png);
+	background-size: 100%;
+  }
+  .social-icon-youtube {			
+	background-image: url(youtube.png);
+	background-size: 100%;
+  }
+  .social-icon-instagram {			
+	background-image: url(instagram.png);
+	background-size: 100%;
+  } 
+
+td:nth-child(3) {
+	background-color: black;
+  }
+  .footer{
+	color: white;
+	background-color: purple;
+  }
